@@ -77,6 +77,7 @@ _Last Updated: 2026-08-15_
 |[ml₃]|3 spoons of milk powder|〘睡〙|go-back sleep|
 |[ct.]|Carmién Tea|[rc.]|riced cauliflower|
 |   [BC/BT]  |      bulletproof coffee/tea     |[ps.]|pumpkin seed|
+|      [ch.]      |                 cheese                |     |            |
 
 - Examples:
   - 07:44 101mg/dL₈(5⁵⁴/0⁵⁰,3³⁶,0⁵⁰): BG 101mg/dL from left middle-finger on nail-side at 7:44 AM, and the durations from last insulin dosages are 5h54m and 50m for Tresiba, 3h36m for NPH, and 50m for R/H/N.
