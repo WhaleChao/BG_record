@@ -2516,8 +2516,22 @@
 1. 08:22 162mg/dL⁵
     -`{08:24 7H>B}`〘睡〙[10:20 鹽BC]
 2. 11:51 70mg/dL⁴ 
-3. 15:44 166mg/dL³ <!-- violent thinking, sleeping --> 
+3. 15:44 166mg/dL³ <!-- violent thinking, sleeping, and it just rushed high when H is gone, even without eating (but with yesterday's big meal) --> 
     -`{15:45 6H<A}`
-    -`{17:53 8R<B}`![IMG_20260907_180028.jpg](./image/IMG_20260907_180028.jpg)[ml.]![IMG_20260907_200244.jpg](./image/IMG_20260907_200244.jpg) [ch.]
+    -`{17:53 8R<B}`![IMG_20260907_180028.jpg](./image/IMG_20260907_180028.jpg)[ml.]![IMG_20260907_200244.jpg](./image/IMG_20260907_200244.jpg) [ch.,甜酒]
+4. 23:11 129mg/dL²
+    -`{23:14 4⁺R>A}`
+    -`{00:06 (7+7)T<T>B}`
+
+#### 20260908Tue
+1. 05:40 168mg/dL¹
+    -`{05:42 6H<A}`〘睡->09:15〙
+2. 09:29 112mg/dL₂
+    -`{09:31 4⁺<B}`[鹽BC]
+3. 12:57 128mg/dL₃
+    -`{13:00 ½H3½R>B}`
+    -`{13:00 5I>A}`
+4. 18:11 97mg/dL⁴
+    -`{18:17 4⁺R<B}` ![IMG_20260908_181804.jpg](./image/IMG_20260908_181804.jpg)
 
 ---
