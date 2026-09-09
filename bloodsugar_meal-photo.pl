@@ -32,7 +32,7 @@ if (defined $line) {
 	local $^I = ".bak";          # backup; set to "" for no backup
 	local @ARGV = ($file);
 	while(<>){
-		s/$/ ![${img_name}](.\/image\/${img_name})/ if $. == $line;
+		s/$/ ![](.\/image\/${img_name})/ if $. == $line;
 		print;
 	}
 }
