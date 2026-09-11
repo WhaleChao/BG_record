@@ -145,3 +145,24 @@ termux-camera-photo -c back tmp-telegram/phone_$(date +%Y%m%d_%H%M%S).jpg
 opencode run -m opencode/muse-spark-1.3-contributor-free \
   "Using the read tool, look at the image, then answer. User question: $*"
 ```
+
+## 8. Keep Termux alive (Xiaomi/HyperOS kills background apps)
+
+Verified 20260911 on Xiaomi 2510DRA23E, HyperOS V816, Android 16 —
+`sleep`-based alarms die with the app; system Clock alarms survive.
+
+```bash
+termux-wake-lock   # hold partial wake lock (re-run after every Termux restart)
+termux-notification --id termux-keepalive --ongoing \
+  --title "Termux BG guard" --content "Keepalive ON — do not swipe away Termux."
+```
+
+Manual (must tap, no command can do it for you):
+
+1. Settings → Apps → Termux → Battery → **No restrictions** (same for Termux:API).
+2. Settings → Apps → Autostart (Security app) → enable **Termux** + **Termux:API**.
+3. Recents → pull down Termux card → **Lock**.
+4. Optional: F-Droid **Termux:Boot** → auto-restart guard after reboot.
+
+Rule: BG-critical alarms always via system Clock
+(`am start -a android.intent.action.SET_ALARM ...`); voice TTS needs Termux alive.
