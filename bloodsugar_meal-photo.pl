@@ -5,9 +5,15 @@ use File::Basename qw(basename);
 #use File::Copy qw(copy);
 
 my$file="bloodsugar.md";
-#my$phone_img_folder="/home/louisophie/Downloads/github/BG_record/image.bak";
+#my$phone_img_folder="/home/louisophie/Downloads/github/BG_record/image.tmp";
 my$phone_img_folder="/data/data/com.termux/files/home/storage/shared/DCIM/Camera";
-@_ = glob("${phone_img_folder}/*.jpg");
+#@_ = glob("${phone_img_folder}/*.jpg");
+@_ = (
+    glob("${phone_img_folder}/*.jpg"),
+    glob("${phone_img_folder}/*.jpeg"),
+    glob("${phone_img_folder}/*.JPG"),
+    glob("${phone_img_folder}/*.JPEG"),
+);
 $_ = (sort { -M $a <=> -M $b } @_)[0];
 my$img_name=basename($_) ;
 #system("jpegoptim", "-v", "-d", "./image/", "--size=100k", "--strip-all", "-o", "$_") == 0 or die "jpegoptim failed: $?";
@@ -28,14 +34,18 @@ close $fh;
 #>find the line-number end
 
 #<insert an img to the bloodsugar.md with .bak
+print "[food]: ";
+chomp(my $food = <STDIN>) // '';   # keyboard, immune to @ARGV; guards closed-stdin
 if (defined $line) {
-	local $^I = ".bak";          # backup; set to "" for no backup
-	local @ARGV = ($file);
-	while(<>){
-		s/$/ ![](.\/image\/${img_name})/ if $. == $line;
-		print;
-	}
+    local $^I = ".bak";
+    local @ARGV = ($file);
+    while (<>) {
+        s/$/ ![$food](.\/image\/${img_name})/ if $. == $line;
+        print;
+    }
 }
+
+
 system("cat", "-n", "$file");
 
 __END__
