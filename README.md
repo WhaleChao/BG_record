@@ -130,3 +130,9 @@ bash bloodsugar_duration_termux_log.bash
 #the newest image in the phone to be processed and copied to ./image, then appending an image-insertion code to the bloodsugar.md
 perl bloodsugar_meal-photo.pl
 ```
+
+## Unexpected Keyboard's clipboard editing
+```bash
+#editing after debugging and adb the phone
+perl Un-clip.pl
+```
