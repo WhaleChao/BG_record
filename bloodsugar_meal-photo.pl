@@ -35,7 +35,9 @@ close $fh;
 
 #<insert an img to the bloodsugar.md with .bak
 print "[food]: ";
-chomp(my $food = <STDIN>) // '';   # keyboard, immune to @ARGV; guards closed-stdin
+my $food = <STDIN>;          # keyboard, immune to @ARGV
+$food = '' unless defined $food;  # guards closed-stdin (EOF -> empty label)
+chomp $food;
 if (defined $line) {
     local $^I = ".bak";
     local @ARGV = ($file);
