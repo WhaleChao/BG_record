@@ -45,7 +45,7 @@ foreach(@lines){
 	if(/^(\d+?\.) (\d\d:\d\d) (\d+?mg\/dL.)/){#^1. 05:54 123mg/dL⁹
 		$a=duration_seconds("$date $2");
 		push@seconds,$a;
-		$_=" $1 $2 $3 $a\n";#^1. 05:54 123mg/dL⁹ 1789422840
+		$_="  $1 $2 $3 $a\n";#^  1. 05:54 123mg/dL⁹ 1789422840
 	}
 	if(/`\{(\d\d:\d\d) (.+?)\}`/){#^    -`{05:56 2½H<A}`
 		$a=duration_seconds("$date $1");
