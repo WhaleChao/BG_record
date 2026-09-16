@@ -1,4 +1,4 @@
-_Last Updated: 2026-09-12_
+_Last Updated: 2026-09-16_
 ## Subjective History
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
@@ -7,7 +7,7 @@ _Last Updated: 2026-09-12_
 - Doing ADA's high-carb and low-fat diet, which taught by medical institutions, with ultra-short-term and long-term insulins for more than one-and-half decades.
 - Having serious hypo and syncope per 1-2 years and strong negative thoughts when 35 years old.
 - Turning to ketogenic diet and intermittent fasting after the year 2019-2020 and resulting in almost normal blood-sugar (5.3%-4.6%, but SD still unstable); mental state being improved, and no serious hypo and syncope at all.
-- Still having mental, urination and sleep issues, but getting ameliorated gradually.
+- Still having mental, urination and sleep issues.
 
 ## Treatment Guidelines
 - Bernstein, Richard K. _Dr. Bernstein's Diabetes Solution: The Complete Guide to Achieving Normal Blood Sugars_ (Hardcover 4th ed.), Little, Brown & Company, 2011.
@@ -117,7 +117,7 @@ _Last Updated: 2026-09-12_
 
 ## Insulin Duration counted
 ```bash
-#for insulin injection only
+#for insulin-injection and BG-checking with bloodsugar_duration_v3.pl
 bash bloodsugar_duration_termux.bash
 ```
 ```bash
