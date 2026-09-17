@@ -2660,3 +2660,6 @@
 2. 11:59 71mg/dL²〘weigh〙
 3. 14:04 87mg/dL³
     -`{14:11 4I>B}`
+4. 17:07 44mg/dL⁴ ![牛+ch.](./image/IMG_20260917_172441.jpg)<!--lesson: fasting 4I 87->44(-43/3h); morning 9I done by ~13:30 (7h = compressed 4-7h, not textbook 12-18h); gap-rise 71->87 only +8/h fading (liver empty post-40); NPH suppresses the rise it offsets → net crash; gap rule: rising <90 fasting = eat first; 90-110 rising = half-dose 2-4I; full dose only ≥110+food-->
+5. 18:44 75mg/dL⁵
+    -`{18:52 5I<A}`
