@@ -1,4 +1,4 @@
-_Last Updated: 2026-09-16_
+_Last Updated: 2026-09-17_
 ## Subjective History
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
@@ -135,4 +135,9 @@ perl bloodsugar_meal-photo.pl
 ```bash
 #editing after debugging and adb the phone
 perl Un-clip.pl
+```
+
+## Opencode CLI in perl
+```bash
+perl opencode-cli.pl
 ```
