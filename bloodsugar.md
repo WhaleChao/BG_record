@@ -2948,6 +2948,12 @@
  -`{06:14 8I>B}`[ml.+鹽BC][ch₃]
 2. 11:49 32mg/dL₁[ch.]
 3. 16:12 59mg/dL¹
- -`{16:13 4R<A}` ![牛+ch.+mayo(egg+butter)](./image/IMG_20261011_161645.jpg)
+ -`{16:13 4R<A}` ![牛+ch.+mayo(egg+butter)](./image/IMG_20261011_161645.jpg)[ml.]
+ -`{18:50 8I>A}`[cf.]
+4. 23:47 31mg/dL²[9g]
+
+#### 20261012Mon
+1. 05:58 36mg/dL³
+ -`{06:00 7I<B}`<!-- cf. too much last night resulting in bad sleep-->
 
 ---
