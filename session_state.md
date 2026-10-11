@@ -1,37 +1,39 @@
 # Session State — Live Handoff
 
-_Last written: 2026-10-02 01:03 CST_
+_Last written: 2026-10-04 19:30 CST_
 
 > Raw data only. Re-derive conclusions; do not inherit prior AI analysis.
 
-## 1. Today's status (2026-10-02 Fri, 01:03)
+## 1. Today's status (2026-10-04 Sun)
 
-- **Last known BG:** 00:18 `40mg/dL⁵` — SEVERE HYPO. **Rescue 12.7g taken 01:00, recheck due ~01:15 — not yet logged.**
-- **Active insulin:** 4H @21:40 (fading, done ~01:30–02:40). 8I @14:46 and 9I @11:40 both finished. **No NPH active.**
-- **Food 10/01:** rescue ml.+ch.+鹽BC (06:22); 醃豬肉(有糖)+ch.+cf. (09:43); cf.+ch., ml.+cf., egg₃+spread; ch. (22:05); 12.7g rescue (01:00).
-- **Mental:** "hypo feeling" noted at 11:40; nothing at 00:18.
-- **HAAF flag:** SEVERE — 6× <54 since 09/30 07:42 (51, 45, 49, 43, 40). Post-hypo halving rule still applies all day.
-- **Strip budget:** 10/01: 4 used (06:16, 11:38, 21:37, 00:18). 10/02: 0 used.
+- **Last known BG:** 11:16 `145mg/dL⁶` — **8h+ blind since.** No reading at any dose peak today.
+- **Active insulin:** 8I @15:38 — **at peak NOW (17:38–19:38)**, tail → ~22:38. Also 3H @15:37 fading tail (~19:37). Earlier: 5I @01:49, 5H2R @11:17, 8I @11:18 — all finished.
+- **Food today:** 鹽BC; Costco 鹹水雞沙拉 + ml.; 14:30 炸雞; 15:40 small-egg₅+ch., ml.+ch.
+- **Doses today:** 5I + 5H2R + 8I + 3H + 8I = **31u** (two blind-ish pairs: 15:37/15:38 from an 11:16 reading).
+- **HAAF flag:** severe-hypo history 6× <54 (09/30–10/02); <24h hard rule expired, but halving posture recommended for any night NPH (≤5I cap given 31u day).
+- **Strip budget (10/04):** 1 used (11:16). Heavy-dose night → peak check allowed.
 
-## 2. Raw trajectory (last 3 days)
+## 2. Recent raw trajectory
 
 | Date | Readings | Doses |
 |---|---|---|
-| 09/30 | 51 → 45 → 94 → 49 | 10I, 9I, 8I |
-| 10/01 | 43 → 130 → 142 → **40** | 6½R, 3½H, 9I, 8I, 4H (=31u) |
-| 10/02 | 40 → ? | rescue 12.7g |
+| 10/02 | 111 → 59 → 167 → 184 | 3½, 8I, 3½R, 7I, 6H, 6H, (8+8)I |
+| 10/03 | **47** → 128 → 87 → 109 | 3½H×2, (6+6)I, 3½H, 8I |
+| 10/04 | 83 → 145 → ? | 5I, 5H2R, 8I, 3H, 8I |
 
-## 3. Pattern notes (for verification, not instruction)
+## 3. Advice given + alarms set (19:30)
 
-- 10/01 total 31u on a post-43 day: halve rule ignored. Stacked 9I@11:40 (tail ~18:40) under 8I@14:46 (peak 17:46–18:46).
-- Blind dose: 8I @14:46 with **no reading** between 11:38 and 21:37 (7h gap).
-- Pre-bed protocol skipped: only one check (21:37), no bed-moment check → 4H from 142 → 40 at 00:18.
-- Crash clock 10/01: 142 @21:37 → 40 @00:18 (−102 / 6h41, all in H peak+tail window).
+- **Next NPH: 23:00 gate** — only if bed-moment check ≥90 and not falling; tail of 8I@15:38 clears ~22:38; **halve → ≤5I** (31u day). No reading → no dose.
+- Alarms set (DeskClock + voice, PIDs 731–734):
+  1. **19:40** peak check 8I@15:38 (urgent — 8h blind) — `alarm_1004_1940.sh`
+  2. **21:30** pre-bed −2h check — `alarm_1004_2130.sh`
+  3. **23:00** bed-moment check = NPH gate — `alarm_1004_2300.sh`
+  4. **01:45** overnight peak/safety check — `alarm_1005_0145.sh`
+- Open: await 19:40 reading; report NPH dose at 23:00 to confirm 01:45 check relevance.
 
 ## 4. Handoff notes
 
-1. **Await 01:15 post-rescue recheck.** <70 again → repeat 15g/15min; <54 or symptomatic → check sooner.
-2. No insulin until ≥90 ×2 and eating; if dose needed today → halve (6× severe hypo <48h).
-3. Reinstate two pre-bed checks — 142→40 with only one check is what produced tonight.
-4. Glucose bedside; overnight checks after any dose >6u.
-5. **Refresh this file** before switching models or ending session.
+1. Kill fired alarm PIDs 731–734 next session (`ps` check) — stuck-loop bug #3.
+2. Two pre-bed checks (21:30, 23:00) are the decision points — do not skip.
+3. If 19:40/21:30 reading <70: rescue 15g, recheck 15 min, **cancel night NPH**.
+4. **Refresh this file** before switching models or ending session.
