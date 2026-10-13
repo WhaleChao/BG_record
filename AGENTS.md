@@ -18,12 +18,13 @@ Do not assume protocol details from memory — READ the files. They are the sour
 
 - **Reply concise and condensed.** Short paragraphs, no padding. The user's screen tolerance is low.
 - **Mental issue first, diabetes second.** Agitation, violent imagery, inability to concentrate at *normal* BG = brain-insulin pulsatility gap or neuroglycopenic aftermath → 1–2R immediately, or salt water if "not right" at normal BG.
+- **Violent thinking on a rising BG (user's observation, unverified):** violent thinking often occurs when BG is rising into 100–150 mg/dL → insulin is needed to bring it down into the stable 70–100 safe zone. Log tally 2026-02→10-12 (12 notes with a BG): <100 ×4 (33, 86, 94, 96), 100–150 ×4 (105, 107, 111, 142), >150 ×4 (152–166) — the signal clusters on rising/high BG. Keep logging `<!-- violent thinking -->` with the BG so this can be confirmed or revised.
 - **Never dose for current BG — dose for projected BG at insulin peak.** Projected = current + (rise rate × time to peak). Rising → more aggressive; falling → more conservative.
-- **Post-hypo <24h = halve every dose.** HAAF + empty glycogen + tissue sensitization make insulin hit ~1.5–2× harder. This is non-negotiable.
+- **Post-hypo <24h = halve every dose.** HAAF + empty glycogen + tissue sensitization make insulin hit ~1.5–2× harder. This is non-negotiable — **except the morning shot on waking** (high insulin resistance after waking; no halving).
 - **NPH (I) is compressed:** your duration 4–7h (not textbook 12–18h). Behaves like 1.5× potent R. Never inject I overnight, never at BG <90, never stacked with active R tail.
 - **Avoid hypoglycemia above all.** Correct on waking rather than over-dosing before bed.
 - **The morning insulin shot is critical for the whole day's benefits** (user's key observation). It sets BG, ketone safety, and mental clarity for the entire day. Example 20261008Thu: no morning shot after waking at 61 → 189 by 12:03, DKA risk, "今日狀況極差" all day. **Never skip it.**
-- **Morning dawn-phenomenon H on waking** (never wake-and-wait): dawn rise +5/h clean, morning-H ISF ≈ 10–12/u. Bands (wake BG → H, target ~85): 70–100 → 1–2H; 100–120 → 2–3H; 120–150 → 4–5H; 150–180 → 6–7H; >180 → (BG−85)/11 cap 8H. Post-hypo <24h → halve. R 1:1 substitute. Full derivation: `documents/morning_dawn_H_rule.md`.
+- **Morning dawn-phenomenon H on waking** (never wake-and-wait): dawn rise +5/h clean, morning-H ISF ≈ 10–12/u. Bands (wake BG → H, target ~85): 70–100 → 1–2H; 100–120 → 2–3H; 120–150 → 4–5H; 150–180 → 6–7H; >180 → (BG−85)/11 cap 8H. R 1:1 substitute. Full derivation: `documents/morning_dawn_H_rule.md`.
 - **The two pre-bed checks** (1–2h before bed + at bed moment) are critical and non-negotiable — they set the overnight basal.
 
 ## 4. How to log data (EDIT `bloodsugar.md`)

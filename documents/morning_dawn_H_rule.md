@@ -37,7 +37,7 @@ Pure-H mornings center on **~−11/u** → use **10–12 mg/dL/u** for morning-H
 
 ## 4. Modifiers
 
-- **Post-hypo <24h (HAAF): halve every band** (44 was still biting at 23h on 09/19).
+- ~~**Post-hypo <24h (HAAF): halve every band** (44 was still biting at 23h on 09/19).~~ **Removed 2026-10-12 by user:** no halving for the morning shot — insulin resistance is high after waking.
 - **Clean fasting day (no carryover): lower end** of the band.
 - **Carryover / rebound day (big-meal tail, Somogyi resolving): upper end** — the tail resists the drop (09/08 6H only −56 at −9.3/u).
 - **R substitutes 1:1 when H unavailable** (HAAF ISF R ~50–60 ≈ H ~55–65, same scale) — but R peaks 1–3h, so shift the peak check later (`predict_next_check.sh`).

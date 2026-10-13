@@ -2800,7 +2800,7 @@
  -`{22:20 9I>内}`
 
 #### 20260928Mon
-1. 04:08 39mg/dL₆[ml.]<!-- hypo and sleep little, but feel energetic and good -->
+1. 04:08 39mg/dL₆[ml.]<!-- hypo and sleep little, but feel energetic and good -->	
  -`{06:58 9⁺I>A}`[BC][cf.]
 2. 11:47 162mg/dL₇
  -`{11:49 7½H<B}`<!-- hypo felt -->
@@ -2955,5 +2955,16 @@
 #### 20261012Mon
 1. 05:58 36mg/dL³
  -`{06:00 7I<B}`<!-- cf. too much last night resulting in bad sleep-->[ml(多)]
+2. 11:28 111mg/dL⁴<!-- violent thinking -->
+ -`{11:52 3⁻H>B}`
+ -`{14:08 4R<A}` ![炸醃雞](./image/IMG_20261012_140934.jpg)
+ -`{16:53 8I>A}`
+3. 19:07 77mg/dL⁵[20:10 ch₂]
+4. 21:56 106mg/dL⁶
+ -`{22:00 9I<内}`
+
+#### 20261013Tue
+1. 07:10 48mg/dL⁷
+ -`{07:22 8½I<B}`[ml.+鹽BC]
 
 ---
