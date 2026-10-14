@@ -43,6 +43,7 @@ Pure-H mornings center on **~−11/u** → use **10–12 mg/dL/u** for morning-H
 - **R substitutes 1:1 when H unavailable** (HAAF ISF R ~50–60 ≈ H ~55–65, same scale) — but R peaks 1–3h, so shift the peak check later (`predict_next_check.sh`).
 - Morning I (NPH basal for the day) is dosed **separately** per day-pattern/carryover — the bands above are the fast-insulin part only.
 - Peak check at the H peak (~1h), tail per predictor. 鹽BC with the dose (food buffer).
+- **Coffee rise (added 2026-10-13, general physiology, not yet validated on this log):** caffeine (鹽BC / cf.) + morning cortisol → liver glucose output + resistance ≈ **+10–30 mg/dL at 30–90 min**. Butter/MCT ≈ 0 BG (→ ketones), salt 0. **Small after a night low** (glycogen empty). Already inside the band ISF — don't add extra units for it; just expect it at the ~1h peak check. **鹽BC is not hypo treatment** — glucose first at <70. Log the 1h post-鹽BC BG to confirm/revise.
 
 ## 5. Why not wait-and-see
 

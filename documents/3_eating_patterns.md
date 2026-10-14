@@ -84,7 +84,7 @@ All pre-bed I >10u nights and next-morning BG:
 
 ## 5. Special cases that override the table
 
-- **Post-hypo <24h** (HAAF): halve EVERYTHING above, even on big-meal day (09/17 was big-meal but post-26 → crashed anyway).
+- **Post-hypo <24h** (HAAF): reduce EVERYTHING above by severity (×0.5–0.9, AGENTS.md §3 table), even on big-meal day (09/17 was big-meal but post-26 → crashed anyway).
 - **Rebound present:** if BG is high from rebound (not meal), DON'T add big basal — it lands later as a low. Correct small and awake.
 - **Dawn/dawn-risk:** if rising on own, small + recheck, not pre-emptive full dose.
 
@@ -122,7 +122,7 @@ All pre-bed I >10u nights and next-morning BG:
 **Practical rule:**
 - 1 big meal → **2–3 days** of elevated (not full) dose. Don't drop to fasting-dose on day 2.
 - Consecutive big meals → stays high until you stop, then drops ~2 days.
-- **Post-hypo override always wins:** severe hypo <24h → halve everything regardless of carryover (09/17 big-meal but post-26 crashed anyway).
+- **Post-hypo override always wins:** hypo <24h → reduce everything by severity (AGENTS.md §3 table) regardless of carryover (09/17 big-meal but post-26 crashed anyway).
 
 ## 7. Open items / to refine
 

@@ -35,6 +35,7 @@ _Last Updated: 2026-09-21_
 - ~~- f.u. might results from the gap in which there is no insulin in body, thus filling the gap would be critical; in fasting-day, the insulin-timing and gap-adjusting need more attention in small-fasting dosages. The midnight's f.u. must be avoided completely and carefully.~~
 - **Treatment for unrefreshing waking: inject H or N immediately upon waking in the morning, then wait for the dosage to take effect and try to tell the mental difference.**
 - **Morning dawn-phenomenon H rule (derive: `documents/morning_dawn_H_rule.md`):** on waking, take fast H to cancel dawn rise (+5/h clean) + morning resistance (morning-H ISF ≈ 10–12/u, ~3–4× fasting-clean). Bands (wake BG, no active insulin, target ~85): 70–100 → 1–2H; 100–120 → 2–3H; 120–150 → 4–5H; 150–180 → 6–7H; >180 → (BG−85)/11 cap 8H. R substitutes 1:1 (slower peak 1–3h). Morning I dosed separately per day-pattern.
+- **Morning coffee rise (2026-10-13, unverified on this log):** caffeine in 鹽BC/cf. + morning cortisol → +10–30 mg/dL at 30–90 min (liver output + resistance); small after a night low (empty glycogen). Fat/MCT ≈ 0 BG, salt 0. Covered by the morning-H bands — no extra units. 鹽BC is **not** hypo treatment: glucose first at <70.
 
 ## Photo-check Protocol for eating-out and suspicious meals
 - Check the file photo-check_protocol.md.

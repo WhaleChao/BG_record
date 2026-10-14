@@ -13,7 +13,7 @@
 
 ```bash
 # 20:30 hypo-watch
-am start -a android.intent.action.SET_ALARM \
+am start --user 0 -a android.intent.action.SET_ALARM \
   --ei android.intent.extra.alarm.HOUR 20 \
   --ei android.intent.extra.alarm.MINUTES 30 \
   --es android.intent.extra.alarm.MESSAGE "量血糖！5I高峰 hypo watch" \
@@ -70,6 +70,8 @@ edge-tts --voice zh-TW-HsiaoChenNeural --text "請量血糖" --write-media audio
 
 **Regenerate ALL standard warnings:** run `/data/data/com.termux/files/usr/tmp/opencode/gen_bg_warnings.sh`.
 
+**Pronunciation (2026-10-14):** the voice reads 量 as liàng4; for 量血糖 (liáng2) feed the homophone **涼** to edge-tts. `documents/gen_bg_warnings.sh` does this automatically (`gen <file> "<text>"`); add new lines there.
+
 **Best practice:** pre-generate warning MP3s ahead of time (as done), so alarm scripts only `termux-media-player play` the file — **no network, no live TTS, no termux-tts-speak** needed at alarm time.
 
 > Fallback if edge-tts unavailable: `termux-tts-speak -e com.google.android.tts -l zh-TW -s ALARM` (Google, may be China accent).
@@ -95,6 +97,8 @@ edge-tts --voice zh-TW-HsiaoChenNeural --text "請量血糖" --write-media audio
 2. **`termux-notification` HANGS (~2 min block)** in this Termux — any script calling it stalls *before* mp3/TTS. Voice scripts must NOT call it (DeskClock covers the visual). Order: vibrate → mp3 → TTS.
 3. **Stuck loops accumulate** (`bash` + `sleep` + `sh/termux-api` stay in `ps`) — kill old `<pid>`s after they fire; check `ps` before launching a same-slot replacement.
 4. **`setsid ... &` + `echo ok-$!` is the launch pattern that returns fast**; `nohup` and chained `termux-notification` in the same one-liner block the tool call to timeout.
+5. **(2026-10-14) Inside `proot-distro login debian`, `am start` WITHOUT `--user 0` fails:** `SecurityException: startActivityAsUser asks to run as user -2 ... requires INTERACT_ACROSS_USERS` — proot fakes uid 0 (root). Always pass `--user 0`. termux-api calls (`termux-vibrate`, `termux-media-player`) work from proot as-is.
+6. **(2026-10-14) edge-tts returned 403** (`WSServerHandshakeError` from speech.platform.bing.com) — outdated edge-tts — FIXED by `pip install -U edge-tts` (7.3.1).
 
 ## 8. New-session checklist
 
