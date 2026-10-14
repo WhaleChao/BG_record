@@ -1,4 +1,4 @@
-_Last Updated: 2026-09-21_
+_Last Updated: 2026-10-14_
 ## Subjective History
 - Male, born in November 1985.
 - Tall and slim since kid with high myopia; currently 187 cm tall and 79 kg in weight with 700-degree myopia for both eyes.
@@ -109,13 +109,15 @@ _Last Updated: 2026-09-21_
 1. Two sets of 3-Groups-Timer for elapsed time of insulin dosage. These are the most critical devices.
 2. Hisense A5pro E-ink phone running android 10: it makes my digital BG-recording job possible because I cannot stare at luminant phone screen for more than 5 mins. I've been using Dr. Bernstein's BG-record chart for almost five years, and many notations and ciphers in my phone right now are derived from my **_Dr. Bernstein's GlucograF DATA SHEET_** recording.
 3. Softwares used on my phone:
-    - **_Markor_**, which is omnipotent in my BG recoding.
-    - **_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
     - **_Termux_**, for insulin-duration counting and md-file modifying.
+    - **_Claude Code_**, installed on Termux by `proot-distro login debian`.
+    - **_micro_**, for md log editing.
+    - **_Markor_**, which is omnipotent in my BG recoding.
+~~    - **_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
+    - **_Trime_** from my repo "https://github.com/louisophie/trime" forked from [osfans/trime](https://github.com/osfans/trime)
 4. Softwares used on antiX of debian:
     - Zettlr.
-    - Opencode/OMP for data analysis
-    - Cheap/free models.
+    - Opencode/Claude Code for data analysis
 
 ## Insulin Duration counted
 ```bash
@@ -133,13 +135,8 @@ bash bloodsugar_duration_termux_log.bash
 perl bloodsugar_meal-photo.pl
 ```
 
-## Unexpected Keyboard's clipboard editing
+## Claude Code in Termux
 ```bash
-#editing after debugging and adb the phone
-perl Un-clip.pl
-```
-
-## Opencode CLI in perl
-```bash
-perl opencode-cli.pl
+proot-distro login debian
+claude
 ```
