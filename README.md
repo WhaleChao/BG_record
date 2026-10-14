@@ -113,7 +113,7 @@ _Last Updated: 2026-10-14_
     - **_Claude Code_**, installed on Termux by `proot-distro login debian`.
     - **_micro_**, for md log editing.
     - **_Markor_**, which is omnipotent in my BG recoding.
-~~    - **_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
+    - ~~**_Multiling O Keyboard_**, which provides highy personalized diy keyboard in my notation-writing.
     - **_Trime_** from my repo "https://github.com/louisophie/trime" forked from [osfans/trime](https://github.com/osfans/trime)
 4. Softwares used on antiX of debian:
     - Zettlr.
