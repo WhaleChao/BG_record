@@ -25,7 +25,8 @@
 
 | State (fasting, rising) | Action |
 |---|---|
-| <90 | Eat first, 0I. Recheck. |
+| <70 | Glucose 6–9g + ch. first, 0I. Recheck ~20–30 min. |
+| 70–90 | Eat (ch./food) + small gap-cover 1–1½I (2026-10-17). |
 | 90–110, rising | Half-dose only (2–4I). |
 | ≥110 + food, or sustained rise >15/h | Full dose (6–8I) with meal. |
 | Post-hypo <24h | Reduce everything above by severity — ×0.5–0.9 table in AGENTS.md §3 (see §7 why). |

@@ -1,0 +1,87 @@
+2026-10-15T15:31:48.241Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 4.0ms (native link, next() included)
+2026-10-15T15:31:48.242Z [DEBUG] hooks module cc-plugin-telemetry@builtin session.end settled in 1.9ms (native link, next() included)
+2026-10-15T15:31:48.242Z [DEBUG] Cleared all session hooks for session 865661de-f273-4bd3-9510-14d8637b23d6
+2026-10-15T15:31:48.248Z [DEBUG] LSP Diagnostics: Resetting all state (0 pending, 0 files tracked)
+2026-10-15T15:31:48.268Z [DEBUG] $.ui.status (cc-plugin-diff): (cleared)
+2026-10-15T15:31:48.269Z [DEBUG] [closeSessionTabGroup] bridge not connected, skipping
+2026-10-15T15:31:48.270Z [DEBUG] hooks module cc-plugin-diff@builtin command.run settled in 36.1ms (native link, next() included)
+2026-10-15T15:31:48.272Z [DEBUG] FileHistory: Added snapshot for 71027d5c-4434-40db-bd03-e7b4a4f649c0, tracking 0 files
+2026-10-15T15:31:48.311Z [DEBUG] [sessionRegistry] sweep permitted (domain linux::)
+2026-10-15T15:31:48.311Z [DEBUG] [sessionRegistry] sweep permitted (domain linux::)
+2026-10-15T15:31:48.444Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 100.3ms (native link, next() included)
+2026-10-15T15:31:48.444Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 5.3ms (native link, next() included)
+2026-10-15T15:31:48.456Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/agents: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/agents'
+2026-10-15T15:31:48.461Z [DEBUG] Failed to stat directory /root/.claude/agents: ENOENT: no such file or directory, stat '/root/.claude/agents'
+2026-10-15T15:31:48.464Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000&include_additional_installs=true
+2026-10-15T15:31:48.469Z [DEBUG] Lock acquisition took longer than expected - another Claude instance may be running
+2026-10-15T15:31:48.530Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T15:31:48.530Z [DEBUG] Writing to temp file: /root/.claude.json.tmp.20999.cf1b8577c980
+2026-10-15T15:31:48.534Z [DEBUG] Applied original permissions to temp file
+2026-10-15T15:31:48.537Z [DEBUG] Temp file written successfully, size: 70371 bytes
+2026-10-15T15:31:48.537Z [DEBUG] Renaming /root/.claude.json.tmp.20999.cf1b8577c980 to /root/.claude.json
+2026-10-15T15:31:48.541Z [DEBUG] File /root/.claude.json written atomically
+2026-10-15T15:31:48.934Z [DEBUG] [claudeai-mcp] Fetched 4 servers
+2026-10-15T15:31:48.970Z [DEBUG] MCP server "claude.ai Claude Docs": Channel notifications skipped: server did not declare claude/channel capability
+2026-10-15T15:32:51.826Z [DEBUG] [skills] idle — switching poll interval to 30000ms
+2026-10-15T15:48:46.841Z [ERROR] Failed to flush logs to Datadog: AxiosError: timeout of 5000ms exceeded
+2026-10-15T15:54:16.787Z [DEBUG] getPluginSkills: Processing 4 enabled plugins
+2026-10-15T15:54:16.787Z [DEBUG] Checking plugin cc-plugin-agents-md: skillsPath=none, skillsPaths=0 paths
+2026-10-15T15:54:16.787Z [DEBUG] Checking plugin cc-plugin-telemetry: skillsPath=none, skillsPaths=0 paths
+2026-10-15T15:54:16.787Z [DEBUG] Checking plugin cc-plugin-plugin-authoring: skillsPath=none, skillsPaths=0 paths
+2026-10-15T15:54:16.788Z [DEBUG] Checking plugin cc-plugin-diff: skillsPath=none, skillsPaths=0 paths
+2026-10-15T15:54:16.794Z [DEBUG] Total plugin commands loaded: 0
+2026-10-15T15:54:16.799Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/root/.claude/skills, project=[]
+2026-10-15T15:54:16.801Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-10-15T15:54:16.809Z [DEBUG] [skills] skipping reserved dir name 'synced' under /root/.claude/skills: 'synced' is the sync-owned root
+2026-10-15T15:54:16.924Z [DEBUG] Failed to stat directory /root/.claude/commands: ENOENT: no such file or directory, stat '/root/.claude/commands'
+2026-10-15T15:54:16.924Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/commands: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/commands'
+2026-10-15T15:54:16.980Z [DEBUG] Loaded 13 unique skills (13 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-10-15T15:54:16.986Z [DEBUG] getSkills returning: 13 skill dir commands, 0 plugin skills, 39 bundled skills, 1 builtin plugin skills
+2026-10-15T15:54:24.385Z [DEBUG] npm view failed with code 1
+2026-10-15T15:54:24.385Z [DEBUG] npm stderr: (empty)
+2026-10-15T15:54:36.816Z [ERROR] Failed to flush logs to Datadog: AxiosError: timeout of 5000ms exceeded
+2026-10-15T16:24:24.417Z [DEBUG] npm view failed with code 1
+2026-10-15T16:24:24.417Z [DEBUG] npm stderr: (empty)
+2026-10-15T16:54:24.454Z [DEBUG] npm view failed with code 1
+2026-10-15T16:54:24.454Z [DEBUG] npm stderr: (empty)
+2026-10-15T17:24:24.490Z [DEBUG] npm view failed with code 1
+2026-10-15T17:24:24.490Z [DEBUG] npm stderr: (empty)
+2026-10-15T17:54:24.532Z [DEBUG] npm view failed with code 1
+2026-10-15T17:54:24.533Z [DEBUG] npm stderr: (empty)
+2026-10-15T18:24:24.571Z [DEBUG] npm view failed with code 1
+2026-10-15T18:24:24.571Z [DEBUG] npm stderr: (empty)
+2026-10-15T18:54:24.608Z [DEBUG] npm view failed with code 1
+2026-10-15T18:54:24.608Z [DEBUG] npm stderr: (empty)
+2026-10-15T19:24:08.413Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 53.8ms (native link, next() included)
+2026-10-15T19:24:08.413Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 29.5ms (native link, next() included)
+2026-10-15T19:24:09.802Z [DEBUG] [skills] active — switching poll interval to 2000ms
+2026-10-15T19:24:10.120Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/root/.claude/skills, project=[]
+2026-10-15T19:24:10.133Z [DEBUG] [skills] skipping reserved dir name 'synced' under /root/.claude/skills: 'synced' is the sync-owned root
+2026-10-15T19:24:10.140Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/commands: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/commands'
+2026-10-15T19:24:10.140Z [DEBUG] Failed to stat directory /root/.claude/commands: ENOENT: no such file or directory, stat '/root/.claude/commands'
+2026-10-15T19:24:10.204Z [DEBUG] Loaded 13 unique skills (13 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-10-15T19:24:12.421Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 8.6ms (native link, next() included)
+2026-10-15T19:24:12.437Z [DEBUG] FileHistory: Making snapshot for message 614931d5-de7e-43d8-ad96-707afe8b8e4a
+2026-10-15T19:24:12.443Z [DEBUG] FileHistory: Added snapshot for 614931d5-de7e-43d8-ad96-707afe8b8e4a, tracking 0 files
+2026-10-15T19:24:12.469Z [DEBUG] [REPL:unmount] REPL unmounting
+2026-10-15T19:24:12.510Z [DEBUG] LSP server manager shut down successfully
+2026-10-15T19:24:12.589Z [DEBUG] Cleaned up session snapshot: /root/.claude/shell-snapshots/snapshot-bash-1791865508171-6vibf8.sh
+2026-10-15T19:24:12.590Z [DEBUG] [sessionRegistry] sweep permitted (domain linux::)
+2026-10-15T19:24:12.590Z [DEBUG] [sessionRegistry] sweep permitted (domain linux::)
+2026-10-15T19:24:12.614Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/skills: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/skills'
+2026-10-15T19:24:12.614Z [DEBUG] Failed to stat directory /root/.claude/agents: ENOENT: no such file or directory, stat '/root/.claude/agents'
+2026-10-15T19:24:12.614Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/agents: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/agents'
+2026-10-15T19:24:12.672Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T19:24:12.672Z [DEBUG] Writing to temp file: /root/.claude.json.tmp.20999.74f2e17c4b36
+2026-10-15T19:24:12.679Z [DEBUG] Applied original permissions to temp file
+2026-10-15T19:24:12.688Z [DEBUG] Temp file written successfully, size: 69405 bytes
+2026-10-15T19:24:12.688Z [DEBUG] Renaming /root/.claude.json.tmp.20999.74f2e17c4b36 to /root/.claude.json
+2026-10-15T19:24:12.693Z [DEBUG] File /root/.claude.json written atomically
+2026-10-15T19:24:12.766Z [DEBUG] hooks module cc-plugin-telemetry@builtin session.end settled in 1.3ms (native link, next() included)
+2026-10-15T19:24:12.972Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T19:24:12.972Z [DEBUG] Writing to temp file: /root/.claude.json.tmp.20999.6919dab558b1
+2026-10-15T19:24:12.979Z [DEBUG] Applied original permissions to temp file
+2026-10-15T19:24:12.987Z [DEBUG] Temp file written successfully, size: 69406 bytes
+2026-10-15T19:24:12.987Z [DEBUG] Renaming /root/.claude.json.tmp.20999.6919dab558b1 to /root/.claude.json
+2026-10-15T19:24:12.990Z [DEBUG] File /root/.claude.json written atomically
+2026-10-15T19:24:13.169Z [DEBUG] [Anthropic telemetry] 1P event logging export: 12 failure(s) this session (last: Failed to export 1 events (code=ECONNABORTED, timeout of 10000ms exceeded))

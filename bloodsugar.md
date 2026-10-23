@@ -2978,6 +2978,122 @@
  -`{07:01 6I<A}`[5.4g+鹽BC]
 3. 12:50 70mg/dL⁸[鹽BC+ch₂] ![油炸板豆腐](./image/IMG_20261014_142410.jpg)
  -`{15:21 4⁻R>A}` ![炸雞](./image/IMG_20261014_152220.jpg)<!-- violent thinking -->[ml(少)+cf.][ch.]
- -`{17:21 8I<B}`[ch.]
+ -`{17:21 8I<B}`[ch.][22:40 ml(少)+BC(少)]
+4. 00:41 170mg/dL⁷
+ -`{00:51 5I<T}`
+ -`{00:53 2⁺H>B}`
 
----
+#### 20261015Thu
+1. 03:02 136mg/dL⁶〘睡〙
+2. 06:38 112mg/dL⁵
+ -`{06:45 2H<A}`
+ -`{06:51 5I>A}`[鹽BC][10: 00 鹽BC]
+3. 12:10 57mg/dL⁴[12:17 8g]<!-- opus5.5: ok -->![牛+mayo+egg](./image/IMG_20261015_160310.jpg)
+ -`{16:09 3½R<B}`
+4. 17:33 93mg/dL³
+ -`{17:37 3I>B}`〘Walk½₁〙[diet coke][ch₂]
+5. 21:45 71mg/dL²[ch₂] 
+
+#### 20261016Fri
+1. 03:25 100mg/dL¹
+2. 07:02 127mg/dL₂
+ -`{07:05 4⁺H<A}`
+ -`{07:06 3I>A}`<!-- opus5.5: ~07:15 unspirited, foggy, heavy body, agitated at 127; no insulin from ~00:30 (3I tail end) to 07:05 -->[鹽BC₂]
+3. 13:12 102mg/dL₃
+ -`{13:21 0.7R<B}`[14:04 ch.] ![蒜+炸雞](./image/IMG_20261016_160246.jpg)
+4. 16:06 127mg/dL₄
+ -`{16:09 4R>B}`
+ -`{17:18 2½R>B}`[ml.]<!-- opus5.5: ~17:25 user reports really uncomfortable all day; attributes it to going back to sleep after the 03:25 check without insulin (a pattern for ~20 years) --> ![無糖仙草+diet coke](./image/IMG_20261016_183029.jpg)
+5. 19:50 57mg/dL₅[4.4g+ml(70g)+ch.] ![ch.](./image/IMG_20261016_203756.jpg)[ch.(43g)]
+6. 21:28 107mg/dL₆
+ -`{21:33 4½I<A}`
+
+#### 20261017Sat
+1. 01:51 194mg/dL⁷
+ -`{01:54 5H>A}`
+2. 06:53 120mg/dL₈
+ -`{06:56 4H<B}`
+ -`{06:56 4⁻I>B}`[鹽BC₂]
+3. 12:41 110mg/dL₉<!-- violent thinking -->
+ -`{13:21 1.4R<A}` ![牛(226g)+egg+myao](./image/IMG_20261017_141658.jpg)
+ -`{14:28 2R>A}` ![wine](./image/IMG_20261017_161935.jpg) ![wine2](./image/IMG_20261017_162039.jpg)[wine]
+4. 17:38 118mg/dL₀
+ -`{17:41 4½I<B}`[ch.(70g)][ch.(60g)]
+5. 00:08 180mg/dL₉
+ -`{00:12 5⁻R>B}`
+ -`{00:14 8I>T}`
+
+#### 20261018Sun
+1. 08:25 56mg/dL₈<!-- opus5.5: user "I'm ok" — unaware low after 00:12 5⁻R + 00:14 8I -->
+ -`{09:09 3H<A}`
+ -`{09:09 5I>A}`[鹽BC+炸豆腐]
+2. 13:09 88mg/dL₇ ![外食:聚火鍋](./image/IMG_20261018_163013.jpg)
+ -`{16:35 6R<B}` ![iced milk](./image/IMG_20261018_164326.jpg) ![牛奶鍋+御膳鍋](./image/IMG_20261018_165253.jpg) ![魚丸+肉丸](./image/IMG_20261018_173257.jpg)
+3. 18:07 161mg/dL₅
+ -`{18:10 3H>B}`
+ -`{18:10 8I<A}`
+4. 22:19 112mg/dL₄
+ -`{23:17 7I>B}`
+5. 01:39 104mg/dL₃
+ -`{03:39 3I>A}`
+
+#### 20261019Mon
+1. 06:41 28mg/dL₂<!-- shaky, fu -->[6g+ml.(89g)][10.7g]<!-- opus5.5: severe low after 18I NPH stacked 18:10–03:39 -->
+2. 08:11 159mg/dL₁<!-- violent thinking -->
+ -`{08:13 6H<B}`[鹽BC]
+ -`{08:13 6I>B}` ![sausage₂(糖多)](./image/IMG_20261019_101157.jpg)
+ -`{10:38 4½R<A}`[鹽BC]
+3. 12:12 81mg/dL¹
+ -`{14:25 4½R>A}`[meat-ball+garlic][ch.][17:40 ml.]
+ -`{17:41 4⁻R<B}`[sausage₁][21:20 ml.+ch.]
+ -`{21:29 6I>B}`[ch.+wine]
+4. 23:30 148mg/dL²
+ -`{23:34 4R<A}`
+
+#### 20261020Tue
+1. 05:52 97mg/dL³
+ -`{05:57 3H>A}`
+ -`{05:58 4I<B}`[鹽BC][鹽BC]
+2. 12:24 158mg/dL⁴<!-- no violent thinking -->
+ -`{12:29 3H>B}` ![牛ball+外食鴨血湯底](./image/IMG_20261020_153243.jpg)
+ -`{15:35 6½R<A}`<!-- feeling quite good; no violent thinking since waking, even at 158mg/dL -->〘16:30 walk½〙
+ -`{18:37 9I>A}`[ch.][21:50 ml.]
+3. 22:37 65mg/dL⁵[ml.+ch.]
+ -`{23:50 4½I<内}`
+
+#### 20261021Wed
+1. 04:49 58mg/dL⁶<!-- opus5.5: wake low, 2nd in 6h; 4½I @23:50 stacked after 22:37 65 -->[ml.(少)]
+ -`{05:06 8I<B}`<!-- opus5.5: 8I with no recheck after 58; advised glucose first, I ≤2–3 once ≥80 -->[7.4g+鹽BC]
+ -`{07:55 3H>B}`[ml.+鹽BC]<!-- opus5.5: 3H at 8I peak, no BG check since 04:49 58 -->
+2. 09:52 29mg/dL⁷<!-- shaky but ok -->[12.7g+ml.(少)]<!-- opus5.5: severe low; 8I @05:06 + 3H @07:55 stacked after 04:49 58 -->
+3. 11:32 73mg/dL⁸
+ -`{13:40 4R<A}`![(牛+ch.)130g+mayo](./image/IMG_20261021_134356.jpg)[ml.][ml.]
+ -`{16:44 6½I>A}`<!-- opus5.5: no BG since 11:32 73; 29 at 09:52 → advised evening I ≤3–4 -->
+4. 18:51 65mg/dL⁹<!-- opus5.5: 6½I @16:44 rising to peak ~19–20:45 + 4R tail; 4th low <70 in 20h -->[ch.][20:13 sausage₂][ch.][ml.+ch.]
+5. 21:55 139mg/dL⁰
+ -`{21:59 3H<B}`
+ -`{21:59 2R<B}`[ml.+ch.]<!-- opus5.5: advised 1R only (post-29 ×0.6); 3H+2R on 6½I tail -->
+ -`{22:37 10T>内}`
+
+#### 20261022Thu
+1. 03:35 110mg/dL⁰
+ -`{03:39 3½H<A}`〘睡〙
+2. 07:12 74mg/dL⁹<!-- opus5.5: user mental state "comparatively ok" -->[鹽BC] ![(牛+ch.)77g](./image/IMG_20261022_095406.jpg)
+ -`{09:57 4½R>A}`[11:00 ml.+BC]
+3. 12:09 123mg/dL⁷
+ -`{12:11 3⁻H<B}`
+ -`{12:12 6I>B}`〘14:00-15:20 睡〙 ![牛油鍋底(澱粉)+beef ball](./image/IMG_20261022_190151.jpg)
+4. 19:06 81mg/dL⁶
+ -`{19:06 5R<A}`[牛油鍋底(澱粉)+beef ball][21:52 ml.+BT]
+ -`{21:53 9I>A}` <!-- opus5.5: no BG since 19:06 81; 9I on 10T (22:37 10/21) + 5R tail; past big bedtime I → 58 (10/10), 36 (10/12) -->[ch.]
+5. 00:06 90mg/dL⁵[ch.]
+ -`{00:51 10T<T}`
+
+#### 20261023Fri
+1. 07:19 176mg/dL⁴
+ -`{07:22 8H<B}`<!-- opus5.5: 07:24 user "feeling terrible now"; thinks 4I before bed was needed; mostly physical, no violent thinking -->[ml.+BT+ch.]
+ -`{08:22 8I>B}`[sausage₁]〘~11:20 睡〙
+2. 11:35 107mg/dL³
+ -`{11:36 6R<A}` ![牛油湯底+beef ball+egg₄](./image/IMG_20261023_113710.jpg)[ml.+鹽BC]
+ -`{13:29 9I>A}`<!-- opus5.5: no BG since 11:35 107; 9I on 6R peak + 8I @08:22 tail + 10T -->[ml.+鹽BC] <!-- 15:59 violent thinking -->
+3. 16:13 83mg/dL²
