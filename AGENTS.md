@@ -42,6 +42,10 @@ Do not assume protocol details from memory — READ the files. They are the sour
     - **First I sized to the meal (NPH ≈ 1.5× R; ~1–1½I ≈ 50 mg/dL):** low-free 24h + large hotpot/湯底 → ~10I (10/31 9I → 134 at 4h, ~1–1½I short of 85); post-hypo 24–48h → ~6–7I (10/31 9I worked only because it was a rebound off 51); only ch./cf. after I → no extra I.
     - **Second I** (more food later or a late rise): only with a BG ~2–3h after the first I, ≥100 and rising, or real food eaten since (ml., ch₃+, 炸雞) → small 3–4I. Never two full I doses blind (10/01 9I + 8I 3h apart → 142 → after 4H → **40**; 10/04 8I + 8I 4h apart → 84). No second I post-hypo or after only ch./cf.
     - **Target:** BG 70–90 at ~3–4h after the I shot. Log the pre-I BG and the ~3–4h reading so the trial can be scored.
+- **Bedtime-I dawn trial (user, from 2026-11-05; review after ~3–5 nights):** goal wake BG 70–90 without waking at night. T alone is flat → wake 112–133 on T-only nights (dawn rise ~04:00–09:00); big bedtime/night I (6–8I) → wake lows 41/59/64/51 (10/25–10/30). Your compressed NPH peaks 2–4h, so a small late I lands its peak on the dawn rise.
+  - **Dose:** T ~6–8T (a little below usual) + **2–4I at ~23:30–00:30** into **inner thigh (`内`) or buttock (`T`)** (slower absorption → peak ~03:00–05:00, ends ~06:00–07:00). Ref 10/24: 00:30 4⁻I + 10T at 114 → 05:32 **84**.
+  - **Only when:** pre-bed BG steady ~100 or a bit above, no R/H/N tail at bed, not post-hypo <24h, glucose bedside. Otherwise T only (+ ch. if near 75). Low-BG gap-cover line still applies.
+  - **Score:** log pre-bed BG, the I dose/site/time, and wake BG; target wake 70–90, no low.
 - **Avoid hypoglycemia above all.** Correct on waking rather than over-dosing before bed.
 - **The morning insulin shot is critical for the whole day's benefits** (user's key observation). It sets BG, ketone safety, and mental clarity for the entire day. Example 20261008Thu: no morning shot after waking at 61 → 189 by 12:03, DKA risk, "今日狀況極差" all day. **Never skip it.**
 - **Morning dawn-phenomenon H on waking** (never wake-and-wait): dawn rise +5/h clean, morning-H ISF ≈ 10–12/u. Bands (wake BG → H, target ~85): 70–100 → 1–2H; 100–120 → 2–3H; 120–150 → 4–5H; 150–180 → 6–7H; >180 → (BG−85)/11 cap 8H. R 1:1 substitute. Full derivation: `documents/morning_dawn_H_rule.md`.
@@ -54,9 +58,15 @@ Do not assume protocol details from memory — READ the files. They are the sour
 - BG reading format: `<HH:MM> <value>mg/dL<finger-index>`. Finger indices: ¹-⁰ right-to-left thumbs; ₁-₀ nail-side. See README table.
 - Dose format: `-`{`HH:MM` `units`+insulin `<`site`}``. Sites: `>B` right belly, `<B` left belly, `>A` right arm, `<A` left arm, `>T` right buttock, `<T` left buttock, `>内` right inner-thigh, `<内` left inner-thigh.
 - Food/events in `[ ]` / `〘〙` per README codes (`[鹽BC]` salt bulletproof coffee, `[ch.]` cheese, `[ps.]` pumpkin seeds, `[ml.]` milk powder, `〘睡〙` back-to-sleep, `〘weigh〙` weigh-in).
+- **Line layout (user, 2026-11-12):** match how the user organizes `bloodsugar.md`. Do not add a new dash line for food or a note.
+  - Food and small events hang on the line they belong to. After a BG and before the next dose → on that BG line. After a dose and before the next BG → on that dose line. Same clock as the line: brackets only (`107mg/dL⁹[鹽]`, `{12:06 1N<B}`〘睡〙). A later time goes inside the first brackets (`98mg/dL⁸[19:32 冰炸豬油+…]`, `{17:51 2N>B}`[19:29 鹽+豬(少)]`). Several items are consecutive brackets, not nested (`[cin.BC][06:10 cin.鹽BC]`).
+  - Doses stay on their own indented backtick lines.
+  - A between-reading activity with no dose to hang on stays one continuation: ` - 12:38 〘(W+Bike)₁〙[鹽cf.]`.
+  - User notes stay on that same line, time inside the comment: `{17:49 0.8I<B}`<!-- 18:25 violent thinking --> and `98mg/dL⁸[…][鹽BC(cf.少)] <!-- 20:40 violent thinking -->`. A later coffee is `[22:07 鹽BC(cf.少)]` on the 21:18 BG line. Do not add ` - HH:MM` lines for these. AI comments stay in `bloodsugar_grok.md` on the same data line.
 - Mental/physical notes as `<!--...-->` on the relevant line (e.g. `<!-- 10:57 violent thinking-->`).
 - **AI-written comments carry the model name** (user rule 2026-10-15): `<!-- <model>: ... -->`, e.g. `<!-- opus5.5: ok -->`. Comments without a prefix are the user's own. Never add a prefix to, or edit, the user's comments.
 - Preserve existing entries; never rewrite history. Use the Edit tool with exact-match strings.
+- **Two log files (user rule 2026-11-08; comment file 2026-11-12):** `bloodsugar.md` = user data + user comments only; `bloodsugar_grok.md` = same data + AI comments (replaces `bloodsugar_claude.md`). Write every new entry to both; AI comments go only in `bloodsugar_grok.md`. Read `bloodsugar_grok.md` for context, and copy the user's own additions from `bloodsugar.md` into it.
 
 ## 5. Dose-advice workflow
 
